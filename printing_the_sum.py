@@ -1,3 +1,6 @@
+
+print("This is the sum of the current number and the previous number")
+
 # Iterate through the first 10 numbers
 for i in range(1, 11):
 
@@ -7,4 +10,4 @@ for i in range(1, 11):
     sum_result = current_number + previous_number
 
 # Print the sum for each iteration
-    print(f"iteration {i}: {current_number} + {previous_number} = {sum_result}")
+    print(f"Current Number {current_number} + Previous Number: {previous_number} = Sum: {sum_result}")
